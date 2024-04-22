@@ -1,0 +1,33 @@
+/*! === CUSTOM PROPERTIES === */
+:root {
+	--mainFont: "Montserrat", sans-serif;
+	--bgColor: #E47D91;
+}
+
+/*! === GLOBAL === */
+html {
+	/* PX TO REM: 62.5% of 16px = 10px; 1rem = 10px */
+	font-size: 62.5%;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	font-size: 1.6rem;
+	font-family: var(--mainFont);
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/*! === SITE STYLES === */
+/**----------------
+=== INDEX.HTML ===
+/**--------------*/
