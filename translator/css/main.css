@@ -1,6 +1,6 @@
 /*! === CUSTOM PROPERTIES === */
 :root {
-	--blue: ;
+	--blue: #2761DA;
 }
 
 /*! === GLOBAL === */
@@ -40,4 +40,27 @@ img {
 .layout {
 	max-width: 65rem;
 	margin: 3rem auto 0;
+}
+
+.layout__header {
+	display: flex;
+	flex-direction: column;
+	gap: 4rem;
+	margin-bottom: 5rem;
+}
+
+.header__top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header__top>.fa-solid {
+	font-size: 6rem;
+	color: var(--blue);
+}
+
+.header__title {
+	font-size: 3rem;
+	color: var(--blue);
 }
