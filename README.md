@@ -10,10 +10,10 @@
 
 ## 🍕 Projects
 
-| # Number | Project name             | Live site |
-| -------- | ------------------------ | --------- |
-| 01       | [User card](./user-card) | [🚀]()     |
-|          |                          |           |
+| # Number | Project name             | Live site                              |
+| -------- | ------------------------ | -------------------------------------- |
+| 01       | [User card](./user-card) | [🚀](https://01-user-card.netlify.app/) |
+|          |                          |                                        |
 
 
 
