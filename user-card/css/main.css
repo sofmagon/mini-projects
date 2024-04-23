@@ -1,7 +1,9 @@
 /*! === CUSTOM PROPERTIES === */
 :root {
 	--mainFont: "Montserrat", sans-serif;
+	--colorCard: #EA5370;
 	--bgColor: #E47D91;
+	--white: #FFF;
 }
 
 /*! === GLOBAL === */
@@ -31,3 +33,64 @@ img {
 /**----------------
 === INDEX.HTML ===
 /**--------------*/
+.layout {
+	width: 100%;
+	min-height: 100%;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--bgColor);
+}
+
+.layout__main {
+	min-width: 40rem;
+	border-radius: 2rem;
+	background-color: var(--white);
+	box-shadow: 0px 0px 20px var(--colorCard);
+}
+
+.main__user {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: var(--colorCard);
+	padding-bottom: 3rem;
+	border-radius: 2rem 2rem 0 0;
+}
+
+.user__container-img {
+	width: 15rem;
+	height: 15rem;
+	margin: 5rem 0 2.5rem 0;
+}
+
+.user__img {
+	border-radius: 50%;
+	border: 3px solid var(--white);
+}
+
+.user__content {
+	text-align: center;
+	display: flex;
+	gap: 2rem;
+	font-size: 2rem;
+}
+
+.user__name {
+	color: var(--white);
+	font-weight: 600;
+}
+
+.user__nickname {
+	color: var(--white);
+	cursor: pointer;
+}
+
+.user__city {
+	color: var(--white);
+	font-weight: 500;
+	opacity: 0.7;
+	font-size: 1.8rem;
+}
