@@ -21,6 +21,68 @@
 	<link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
+	<div class="layout">
+		<header class="layout__header">
+			<div class="header__top">
+				<i class="fa-solid fa-language"></i>
+				<h2 class="header__title">Translator</h2>
+			</div>
+			<div class="header__bottom">
+				<form class="header__search">
+					<div class="search__control">
+						<input type="search" class="search__input" name="search" placeholder="Enter a word">
+						<i class="fa-solid fa-magnifying-glass"></i>
+					</div>
+					<select name="languages" id="languages" class="search__select">
+						<option value="ESP" class="search__option">Spanish</option>
+						<option value="ENG" class="search__option">English</option>
+						<option value="GER" class="search__option">German</option>
+						<option value="FR" class="search__option">French</option>
+					</select>
+				</form>
+			</div>
+		</header>
+
+		<main class="layout__word">
+			<h1 class="word__title">Computer</h1>
+			<a href="#" class="word__btn">
+				<i class="fa-solid fa-play"></i>
+			</a>
+		</main>
+
+		<section class="layout__definitions">
+			<h3 class="definitions__title">
+				<span>Meanings</span>
+			</h3>
+			<ul class="definitions__list">
+				<li class="list__item">
+					<p class="list__definition">
+						<b>Word #1:</b> Aliquam ac pellentesque lectus. Nullam malesuada turpis quis ex molestie, ac maximus ligula sollicitudin. Vivamus et mollis purus. Quisque eu sapien quis lectus dignissim accumsan. Sed non velit turpis.
+					</p>
+				</li>
+				<li class="list__item">
+					<p class="list__definition">
+						<b>Word #2:</b> Morbi cursus urna sapien, et interdum lorem tincidunt eu. In hac habitasse platea dictumst. Donec et pretium nisl. Duis fringilla nibh quis risus fermentum placerat.
+					</p>
+				</li>
+				<li class="list__item">
+					<p class="list__definition">
+						<b>Word #3:</b> Duis blandit urna eu massa commodo, at feugiat magna tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce lacinia porta mauris et viverra. Fusce convallis malesuada nulla.
+					</p>
+				</li>
+			</ul>
+			<article class="definitions__synonyms">
+				<h3 class="synonyms__title">Synonyms:</h3>
+				<span class="synonyms__item">Quisque</span>
+				<span class="synonyms__item">Rhoncus</span>
+				<span class="synonyms__item">Accumsan</span>
+			</article>
+		</section>
+
+		<footer class="layout__footer">
+			<p class="layout__text">Todos Los Derechos Reservados &copy; 2024</p>
+		</footer>
+	</div>
 
 	<!-- Font Awesome Kit -->
 	<script src="https://kit.fontawesome.com/39da340ac9.js" crossorigin="anonymous"></script>
