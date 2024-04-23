@@ -94,3 +94,46 @@ img {
 	opacity: 0.7;
 	font-size: 1.8rem;
 }
+
+.main__stats {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 2rem;
+	padding: 3rem 4rem;
+	text-align: center;
+}
+
+.stats__followers,
+.stats__posts,
+.stats__likes {
+	/* este borde apoya al borde en hover */
+	border: 2px solid transparent;
+	border-radius: 10px;
+	padding: 0.5rem;
+	cursor: pointer;
+	transition: all 300ms ease-in;
+	width: 33.3333%;
+}
+
+.stats__followers:hover,
+.stats__posts:hover,
+.stats__likes:hover {
+	border: 1px solid pink;
+}
+
+.followers__number,
+.posts__number,
+.likes__number {
+	font-size: 3rem;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
+.followers__title,
+.posts__title,
+.likes__title {
+	font-weight: 500;
+	color: gray;
+	opacity: 0.7;
+}
