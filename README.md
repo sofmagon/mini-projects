@@ -12,7 +12,7 @@
 | -------- | ---------------------------------------- | --------------------------------------- |
 | 01       | [User card](./01-user-card)              | [🚀](https://01-user-card.netlify.app/)  |
 | 02       | [Translator](./02-translator)            | [🚀](https://02-translator.netlify.app/) |
-| 03       | [Temporary mail creator](./03-temp-mail) | [🚀]()                                   |
+| 03       | [Temporary mail creator](./03-temp-mail) | [🚀](https://03-temp-mail.netlify.app/)  |
 |          |                                          |                                         |
 |          |                                          |                                         |
 |          |                                          |                                         |
