@@ -213,3 +213,22 @@ img {
 	color: var(--blue);
 	font-size: 2rem;
 }
+
+.definitions__synonyms {
+	margin-bottom: 5rem;
+}
+
+.synonyms__title {
+	color: dimgray;
+	font-weight: 600;
+	font-size: 2rem;
+	margin-bottom: 2rem;
+	display: inline;
+	margin-right: 2rem;
+}
+
+.synonyms__item {
+	margin-right: 2rem;
+	font-weight: 600;
+	color: var(--blue)
+}
