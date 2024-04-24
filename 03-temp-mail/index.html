@@ -24,6 +24,44 @@
 	<link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
+	<div class="layout">
+		<main class="layout__main">
+			<h1 class="main__title">Temporary Mail Creator</h1>
+			<div class="main__generate">
+				<p class="generate__mail">hello@temp.com</p>
+				<i class="fa-solid fa-copy generate__icon"></i>
+			</div>
+			<form class="main__form">
+				<div class="form__slider">
+					<header class="control__title">
+						<h2 class="control__text">How long will be?</h2>
+						<span class="control__number">8</span>
+					</header>
+					<input type="range" class="control__range" value="8" min="8" max="15">
+				</div> <!-- slider -->
+				<div class="form__control">
+					<input type="checkbox" class="control__checkbox" id="letters">
+					<label for="letters" class="control__label">With letters</label>
+				</div> <!-- checkbox 1 -->
+				<div class="form__control">
+					<input type="checkbox" class="control__checkbox" id="numbers">
+					<label for="numbers" class="control__label">With numbers</label>
+				</div> <!-- checkbox 2 -->
+				<div class="form__control">
+					<input type="checkbox" class="control__checkbox" id="symbols">
+					<label for="symbols" class="control__label">With symbols</label>
+				</div> <!-- checkbox 3 -->
+				<div class="form__control">
+					<input type="checkbox" class="control__checkbox" id="capital">
+					<label for="capital" class="control__label">With capital letters</label>
+				</div> <!-- checkbox 4 -->
+				<div class="form__control">
+					<input type="text" class="control__input" placeholder="Customized">
+				</div>
+				<input type="submit" class="form__submit" value="Create">
+			</form>
+		</main>
+	</div>
 
 	<!-- Font Awesome Kit -->
 	<script src="https://kit.fontawesome.com/39da340ac9.js" crossorigin="anonymous"></script>
