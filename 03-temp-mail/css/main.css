@@ -1,6 +1,10 @@
 /*! === CUSTOM PROPERTIES === */
 :root {
 	--mainFont: "Montserrat", sans-serif;
+	--black: #1C1A1A;
+	--white: #FFF;
+	--darkBlue: #2A4D65;
+	--blue: #1A5CAC;
 }
 
 /*! === GLOBAL === */
@@ -36,3 +40,43 @@ img {
 /**----------------
 === INDEX.HTML ===
 /**--------------*/
+
+.layout {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--darkBlue);
+}
+
+.layout__main {
+	min-width: 50rem;
+}
+
+.main__title {
+	text-align: center;
+	color: var(--white);
+	font-size: 2.4rem;
+	margin-bottom: 2rem;
+	font-weight: 400;
+}
+
+.main__generate {
+	background-color: var(--white);
+	padding: 2rem;
+	margin-bottom: 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.generate__mail {
+	font-size: 2.5rem;
+	font-weight: 600;
+	color: var(--black);
+}
+
+.generate__icon {
+	font-size: 2.5rem;
+	color: var(--blue);
+}
