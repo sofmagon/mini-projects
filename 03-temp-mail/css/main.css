@@ -90,13 +90,13 @@ img {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 1rem;
+	margin-bottom: 2rem;
 }
 
 .control__title {
 	color: var(--black);
 	font-weight: 500;
-	font-size: 2rem;
+	font-size: 2.4rem;
 }
 
 .control__number {
@@ -107,7 +107,7 @@ img {
 
 .control__range {
 	appearance: none;
-	margin-bottom: 2rem;
+	margin-bottom: 0.7rem;
 	background-color: var(--blue);
 	width: 100%;
 	border-radius: 1rem;
@@ -125,5 +125,24 @@ img {
 .form__control {
 	display: flex;
 	align-items: center;
-	margin-bottom: 2rem;
+	margin: 2rem 0;
+}
+
+.control__checkbox {
+	appearance: none;
+	margin-right: 1rem;
+	border: 3px solid var(--blue);
+	padding: 1rem;
+	cursor: pointer;
+}
+
+.control__checkbox:checked {
+	background-image: url(../assets/check.svg);
+	background-size: contain;
+}
+
+.control__label {
+	color: var(--black);
+	font-size: 2rem;
+	cursor: pointer;
 }
