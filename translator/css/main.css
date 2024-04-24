@@ -157,3 +157,34 @@ img {
 	color: #FFF;
 	font-size: 2rem;
 }
+
+.definitions__title {
+	overflow: hidden;
+	text-align: center;
+	font-size: 2.4rem;
+	margin-bottom: 2rem;
+	color: var(--black);
+}
+
+.definitions__title::after,
+.definitions__title::before {
+	content: '';
+	background-color: var(--gray);
+	display: inline-block;
+	height: 2px;
+	position: relative;
+	vertical-align: middle;
+	width: 50%;
+}
+
+/* Linea izquierda */
+.definitions__title::before {
+	right: 0.5rem;
+	margin-left: -50%;
+}
+
+/* Linea derecha */
+.definitions__title::after {
+	left: 0.5rem;
+	margin-right: -50%;
+}
