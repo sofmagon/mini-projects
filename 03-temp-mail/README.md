@@ -1,4 +1,4 @@
-# Temporal mail creator
+# Temporary mail creator
 
 
 
