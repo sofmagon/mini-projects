@@ -50,7 +50,7 @@ img {
 }
 
 .layout__main {
-	min-width: 50rem;
+	min-width: 60rem;
 }
 
 .main__title {
@@ -79,4 +79,15 @@ img {
 .generate__icon {
 	font-size: 2.5rem;
 	color: var(--blue);
+}
+
+.main__form {
+	background-color: var(--white);
+	padding: 5rem;
+}
+
+.form__control {
+	display: flex;
+	align-items: center;
+	margin-bottom: 2rem;
 }
