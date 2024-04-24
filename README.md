@@ -8,17 +8,17 @@
 
 ## 🍕 Projects
 
-| # Number | Project name               | Live site                               |
-| -------- | -------------------------- | --------------------------------------- |
-| 01       | [User card](./user-card)   | [🚀](https://01-user-card.netlify.app/)  |
-| 02       | [Translator](./translator) | [🚀](https://02-translator.netlify.app/) |
-|          |                            |                                         |
-|          |                            |                                         |
-|          |                            |                                         |
-|          |                            |                                         |
-|          |                            |                                         |
-|          |                            |                                         |
-|          |                            |                                         |
+| # Number | Project name                  | Live site                               |
+| -------- | ----------------------------- | --------------------------------------- |
+| 01       | [User card](./01-user-card)   | [🚀](https://01-user-card.netlify.app/)  |
+| 02       | [Translator](./02-translator) | [🚀](https://02-translator.netlify.app/) |
+|          |                               |                                         |
+|          |                               |                                         |
+|          |                               |                                         |
+|          |                               |                                         |
+|          |                               |                                         |
+|          |                               |                                         |
+|          |                               |                                         |
 
 
 ## 🛼 Tecnologies used
