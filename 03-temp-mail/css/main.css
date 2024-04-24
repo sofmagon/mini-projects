@@ -50,7 +50,7 @@ img {
 }
 
 .layout__main {
-	min-width: 60rem;
+	min-width: 45rem;
 }
 
 .main__title {
@@ -84,6 +84,25 @@ img {
 .main__form {
 	background-color: var(--white);
 	padding: 5rem;
+}
+
+.control__texts {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+.control__title {
+	color: var(--black);
+	font-weight: 500;
+	font-size: 2rem;
+}
+
+.control__number {
+	color: var(--blue);
+	font-size: 2.4rem;
+	font-weight: 600;
 }
 
 .form__control {
