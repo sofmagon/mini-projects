@@ -207,6 +207,7 @@ img {
 	color: var(--black);
 	font-size: 1.8rem;
 	text-align: justify;
+	line-height: 1.5;
 }
 
 .list__item b {
