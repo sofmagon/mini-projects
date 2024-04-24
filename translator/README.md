@@ -23,7 +23,7 @@
 
 ## 🌎 Live demo
 
-[Click here]() 👈🏻
+[Click here](https://02-translator.netlify.app/) 👈🏻
 
 
 
