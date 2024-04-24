@@ -72,10 +72,15 @@ img {
 	padding: 4rem;
 	text-align: center;
 	border-radius: 2rem 0 0 2rem;
+	color: var(--green);
 }
 
 .prices__price:last-of-type {
 	border-radius: 0 2rem 2rem 0;
+}
+
+.prices__price>h2 {
+	color: var(--black);
 }
 
 .prices__price--middle {
@@ -83,4 +88,8 @@ img {
 	color: var(--white);
 	border-radius: 2rem;
 	transform: scale(1.1);
+}
+
+.prices__price--middle>h2 {
+	color: var(--white);
 }
