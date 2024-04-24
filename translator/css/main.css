@@ -1,6 +1,7 @@
 /*! === CUSTOM PROPERTIES === */
 :root {
 	--blue: #2761DA;
+	--lightBlue: #47A8EB;
 	--gray: #F4F4F4;
 	--black: #2D2D2D;
 }
@@ -119,4 +120,35 @@ img {
 	outline: none;
 	font-weight: bold;
 	color: var(--black);
+}
+
+.layout__word {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 5rem;
+}
+
+.word__title {
+	color: var(--black);
+	font-weight: 900;
+	font-size: 4.5rem;
+}
+
+.word__btn {
+	background-color: var(--lightBlue);
+	width: 7rem;
+	height: 7rem;
+	border-radius: 50%;
+	text-decoration: none;
+	transition: all 300ms ease-in-out;
+	/* Centrando el icono */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.word__btn>.fa-solid {
+	color: #FFF;
+	font-size: 2rem;
 }
