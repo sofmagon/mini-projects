@@ -234,3 +234,15 @@ img {
 	color: var(--blue);
 	font-size: 1.8rem;
 }
+
+.layout__footer {
+	border-top: 2px solid var(--gray);
+	padding: 2rem 0;
+}
+
+.layout__text {
+	margin: 0;
+	font-size: 1.8rem;
+	color: var(--black);
+	text-align: center;
+}
