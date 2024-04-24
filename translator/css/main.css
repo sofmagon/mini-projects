@@ -222,7 +222,7 @@ img {
 .synonyms__title {
 	color: dimgray;
 	font-weight: 600;
-	font-size: 2rem;
+	font-size: 1.8rem;
 	margin-bottom: 2rem;
 	display: inline;
 	margin-right: 2rem;
@@ -231,5 +231,6 @@ img {
 .synonyms__item {
 	margin-right: 2rem;
 	font-weight: 600;
-	color: var(--blue)
+	color: var(--blue);
+	font-size: 1.8rem;
 }
