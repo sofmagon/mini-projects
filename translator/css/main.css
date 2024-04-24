@@ -141,11 +141,16 @@ img {
 	height: 7rem;
 	border-radius: 50%;
 	text-decoration: none;
-	transition: all 300ms ease-in-out;
+	transition: all 400ms ease-in-out;
 	/* Centrando el icono */
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.word__btn:hover {
+	background-color: var(--blue);
+	transform: scale(1.2);
 }
 
 .word__btn>.fa-solid {
