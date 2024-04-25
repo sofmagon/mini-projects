@@ -37,3 +37,20 @@ img {
 /**----------------
 === INDEX.HTML ===
 /**--------------*/
+
+.layout {
+	width: 100%;
+	min-height: 100%;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--softViolet);
+}
+
+.layout__main {
+	min-width: 50rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
