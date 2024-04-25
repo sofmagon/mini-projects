@@ -101,6 +101,16 @@ img {
 	margin-bottom: 4rem;
 }
 
+.price__detail {
+	font-weight: 500;
+	padding: 1rem 0;
+	border-bottom: 1px solid Gainsboro;
+}
+
+.price__detail:last-of-type {
+	margin-bottom: 5rem;
+}
+
 .price__btn {
 	background-color: var(--green);
 	color: var(--white);
