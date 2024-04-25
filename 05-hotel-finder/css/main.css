@@ -4,6 +4,7 @@
 	--brown: #404040;
 	--white: #FFF;
 	--black: #161616;
+	--lightGreen: #88CC50;
 }
 
 /*! === GLOBAL === */
@@ -75,4 +76,14 @@ img {
 .search__input::placeholder {
 	font-weight: 400;
 	color: var(--black);
+}
+
+.search__btn {
+	padding: 2rem;
+	border-radius: 0 2rem 2rem 0;
+	border: none;
+	outline: none;
+	background-color: var(--lightGreen);
+	cursor: pointer;
+	color: var(--white);
 }
