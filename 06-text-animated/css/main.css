@@ -59,3 +59,43 @@ img {
 	line-height: 7rem;
 	overflow: hidden;
 }
+
+.text__rotate {
+	position: relative;
+	display: block;
+	animation: rotate 10s ease infinite;
+}
+
+@keyframes rotate {
+	20% {
+		transform: translateY(0);
+	}
+
+	25% {
+		transform: translateY(-7rem);
+	}
+
+	45% {
+		transform: translateY(-7rem);
+	}
+
+	50% {
+		transform: translateY(-14rem);
+	}
+
+	70% {
+		transform: translateY(-14rem);
+	}
+
+	75% {
+		transform: translateY(-21rem);
+	}
+
+	95% {
+		transform: translateY(-21rem);
+	}
+
+	100% {
+		transform: translateY(0);
+	}
+}
