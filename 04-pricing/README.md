@@ -23,7 +23,7 @@
 
 ## 🌎 Live demo
 
-[Click here]() 👈🏻
+[Click here](https://04-pricing-tables.netlify.app/) 👈🏻
 
 
 
