@@ -97,6 +97,9 @@ img {
 	gap: 5rem;
 	text-align: center;
 	border-radius: 3rem;
+	/* Para sobreponerlo al mapa */
+	position: relative;
+	box-shadow: 0 8px 20px gray;
 }
 
 .results__result {
@@ -119,4 +122,15 @@ img {
 .result__title {
 	font-size: 2rem;
 	color: var(--black);
+}
+
+.layout__map {
+	width: 100%;
+}
+
+.map__frame {
+	width: 100%;
+	border: none;
+	outline: none;
+	margin-top: -8rem;
 }
