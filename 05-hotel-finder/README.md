@@ -23,7 +23,7 @@
 
 ## 🌎 Live demo
 
-[Click here]() 👈🏻
+[Click here](https://05-hotel-finder.netlify.app/) 👈🏻
 
 
 
