@@ -15,7 +15,7 @@
 | 03       | [Temporary mail creator](./03-temp-mail) | [🚀](https://03-temp-mail.netlify.app/)      |
 | 04       | [Pricing tables](./04-pricing)           | [🚀](https://04-pricing-tables.netlify.app/) |
 | 05       | [Hotel finder](./05-hotel-finder)        | [🚀](https://05-hotel-finder.netlify.app/)   |
-|          |                                          |                                             |
+| 06       | [Text animated](./06-text-animated)      | [🚀]()                                       |
 |          |                                          |                                             |
 |          |                                          |                                             |
 |          |                                          |                                             |
