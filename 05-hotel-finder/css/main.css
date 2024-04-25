@@ -109,3 +109,14 @@ img {
 	border: none;
 	padding: 0;
 }
+
+.result__type {
+	font-size: 1.4rem;
+	color: var(--brown);
+	margin: 0 0 1.5rem 0;
+}
+
+.result__title {
+	font-size: 2rem;
+	color: var(--black);
+}
