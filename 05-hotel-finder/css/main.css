@@ -87,3 +87,25 @@ img {
 	cursor: pointer;
 	color: var(--white);
 }
+
+.layout__results {
+	background-color: var(--white);
+	padding: 3rem 2rem;
+	margin-top: 3rem;
+	display: flex;
+	justify-content: center;
+	gap: 5rem;
+	text-align: center;
+	border-radius: 3rem;
+}
+
+.results__result {
+	width: 33.3333%;
+	border-right: 1px solid Gainsboro;
+	padding-right: 2rem;
+}
+
+.results__result:last-of-type {
+	border: none;
+	padding: 0;
+}
