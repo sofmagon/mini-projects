@@ -1,6 +1,7 @@
 /*! === CUSTOM PROPERTIES === */
 :root {
 	--mainFont: "Montserrat", sans-serif;
+	--shadow: 5px 5px 5px 0px SaddleBrown;
 }
 
 /*! === GLOBAL === */
@@ -56,7 +57,7 @@ img {
 	background-color: RosyBrown;
 	color: white;
 	border-radius: 2rem;
-	box-shadow: 5px 5px 5px 0px SaddleBrown;
+	box-shadow: var(--shadow);
 	margin-bottom: 2rem;
 }
 
@@ -66,7 +67,7 @@ img {
 
 .main__chart {
 	background-color: Wheat;
-	box-shadow: 5px 5px 5px 0px SaddleBrown;
+	box-shadow: var(--shadow);
 	border-radius: 2rem;
 	padding: 3rem;
 }
