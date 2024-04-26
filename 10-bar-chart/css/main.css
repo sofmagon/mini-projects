@@ -19,6 +19,7 @@ html {
 body {
 	font-size: 1.6rem;
 	font-family: var(--mainFont);
+	background-color: Peru;
 }
 
 h1,
@@ -36,3 +37,29 @@ img {
 /**----------------
 === INDEX.HTML ===
 /**--------------*/
+
+.layout {
+	width: 100%;
+	min-height: 100%;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.layout__main {
+	width: 50rem;
+}
+
+.main__header {
+	padding: 3rem;
+	background-color: RosyBrown;
+	color: white;
+	border-radius: 2rem;
+	box-shadow: 5px 5px 5px 0px SaddleBrown;
+	margin-bottom: 2rem;
+}
+
+.header__title {
+	margin-bottom: 1rem;
+}
