@@ -20,7 +20,7 @@
 | 08       | [Background video](./08-bg-video)        | [🚀](https://08-background-video.netlify.app/) |
 | 09       | [Car card](./09-car-card)                | [🚀](https://09-car-card.netlify.app/)         |
 | 10       | [Bar chart](./10-bar-chart)              | [🚀](https://10-bar-chart.netlify.app/)        |
-|          |                                          |                                               |
+| 11       | [Buttons with effects](./11-buttons)     | [🚀]()                                         |
 |          |                                          |                                               |
 |          |                                          |                                               |
 
