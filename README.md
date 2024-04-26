@@ -16,7 +16,7 @@
 | 04       | [Pricing tables](./04-pricing)           | [🚀](https://04-pricing-tables.netlify.app/) |
 | 05       | [Hotel finder](./05-hotel-finder)        | [🚀](https://05-hotel-finder.netlify.app/)   |
 | 06       | [Text animated](./06-text-animated)      | [🚀](https://06-text-animated.netlify.app/)  |
-| 07       | [Stopwatch](./07-stopwatch)              | [🚀]()                                       |
+| 07       | [Stopwatch](./07-stopwatch)              | [🚀](https://07-stopwatch.netlify.app/)      |
 |          |                                          |                                             |
 |          |                                          |                                             |
 |          |                                          |                                             |
