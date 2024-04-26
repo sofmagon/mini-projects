@@ -74,6 +74,55 @@ img {
 
 .chart__title {
 	font-size: 3rem;
-	margin-bottom: 6rem;
+	margin-bottom: 5rem;
 	color: sienna;
+}
+
+.chart__container {
+	display: flex;
+	gap: 1rem;
+	/* Al darles altura, los mas bajos quedaran desde abajo */
+	align-items: flex-end;
+}
+
+.chart__bar {
+	width: calc(14% - 0.5rem);
+	height: 10rem;
+	background-color: #000;
+	border-radius: 0.5rem;
+	background-color: indianred;
+	cursor: pointer;
+}
+
+.chart__bar:hover {
+	transition: background-color 400ms ease-in-out;
+}
+
+.chart__bar--1 {
+	height: 18rem;
+	background-color: brown;
+}
+
+.chart__bar--2 {
+	height: 12rem;
+}
+
+.chart__bar--3 {
+	height: 15rem;
+}
+
+.chart__bar--4 {
+	height: 10rem;
+}
+
+.chart__bar--5 {
+	height: 8rem;
+}
+
+.chart__bar--6 {
+	height: 8rem;
+}
+
+.chart__bar--7 {
+	height: 3rem;
 }
