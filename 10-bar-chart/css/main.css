@@ -95,7 +95,7 @@ img {
 }
 
 .chart__bar:hover {
-	transition: background-color 400ms ease-in-out;
+	transition: all 300ms ease-in-out;
 }
 
 .chart__bar--1 {
@@ -125,4 +125,15 @@ img {
 
 .chart__bar--7 {
 	height: 3rem;
+}
+
+.chart__bar--1:hover,
+.chart__bar--2:hover,
+.chart__bar--3:hover,
+.chart__bar--4:hover,
+.chart__bar--5:hover,
+.chart__bar--6:hover,
+.chart__bar--7:hover {
+	background-color: Sienna;
+	transform: scaleY(1.1);
 }
