@@ -153,3 +153,23 @@ img {
 	font-weight: 500;
 	color: Maroon;
 }
+
+.chart__result {
+	padding: 2rem;
+	border: 2px solid RosyBrown;
+	border-radius: 2rem;
+	margin-top: 2rem;
+}
+
+.result__title {
+	font-size: 2rem;
+	color: maroon;
+	margin: 0 0 1.5rem 0;
+}
+
+.result__age-range {
+	font-size: 4rem;
+	font-weight: 700;
+	color: maroon;
+	margin: 0;
+}
