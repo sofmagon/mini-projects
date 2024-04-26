@@ -3,6 +3,7 @@
 	--mainFont: "Montserrat", sans-serif;
 	--black: #222;
 	--shadowColor: #d5ab93bf;
+	--blue: #00A7DB;
 }
 
 /*! === GLOBAL === */
@@ -80,4 +81,34 @@ img {
 	font-size: 1.8rem;
 	color: gray;
 	margin: 1.5rem 0;
+}
+
+.content__user {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.user__info {
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+}
+
+.user__container-img {
+	width: 6rem;
+	height: 6rem;
+}
+
+.user__img {
+	border-radius: 100%;
+}
+
+.user__name {
+	margin: 0 0 1rem 0;
+	font-weight: 500;
+}
+
+.user__date {
+	color: gray;
 }
