@@ -81,3 +81,33 @@ img {
 	/* Recortar una parte del borde */
 	border-left-color: transparent;
 }
+
+.stopwatch__time {
+	font-size: 8rem;
+	font-weight: 900;
+	color: GhostWhite;
+}
+
+.stopwatch__btns {
+	display: flex;
+	gap: 3rem;
+}
+
+.stopwatch__start,
+.stopwatch__pause {
+	font-size: 2rem;
+	font-weight: 600;
+	color: black;
+	background-color: var(--lightGreen);
+	padding: 1rem;
+	border-radius: 1rem;
+	cursor: pointer;
+	margin-top: 1rem;
+	transition: all 400ms ease;
+}
+
+.stopwatch__start:hover,
+.stopwatch__pause:hover {
+	background-color: var(--softViolet);
+	color: ghostWhite;
+}
