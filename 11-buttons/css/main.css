@@ -19,6 +19,7 @@ html {
 body {
 	font-size: 1.6rem;
 	font-family: var(--mainFont);
+	background-color: SlateGray;
 }
 
 h1,
@@ -47,5 +48,8 @@ img {
 }
 
 .layout__buttons {
-	width: 50%;
+	width: 70rem;
+	display: flex;
+	justify-content: space-between;
+	gap: 5rem;
 }
