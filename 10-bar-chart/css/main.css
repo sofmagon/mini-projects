@@ -63,3 +63,16 @@ img {
 .header__title {
 	margin-bottom: 1rem;
 }
+
+.main__chart {
+	background-color: Wheat;
+	box-shadow: 5px 5px 5px 0px SaddleBrown;
+	border-radius: 2rem;
+	padding: 3rem;
+}
+
+.chart__title {
+	font-size: 3rem;
+	margin-bottom: 6rem;
+	color: sienna;
+}
