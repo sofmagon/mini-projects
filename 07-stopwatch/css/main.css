@@ -112,3 +112,28 @@ img {
 	background-color: var(--softViolet);
 	color: ghostWhite;
 }
+
+.main__nav {
+	display: flex;
+	justify-content: space-between;
+	width: 75%;
+	background-color: var(--darkBlue);
+	padding: 1rem;
+	border-radius: 5rem;
+	margin-top: 5rem;
+}
+
+.nav__item {
+	color: GhostWhite;
+	font-size: 2rem;
+	padding: 1rem;
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.nav__item:first-child,
+.nav__item:hover {
+	background-color: var(--lightGreen);
+	color: black;
+	border-radius: 2rem;
+}
