@@ -19,6 +19,8 @@ html {
 body {
 	font-size: 1.6rem;
 	font-family: var(--mainFont);
+	overflow: hidden;
+	color: white;
 }
 
 h1,
@@ -32,7 +34,55 @@ img {
 	display: block;
 }
 
+video {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
 /*! === SITE STYLES === */
 /**----------------
 === INDEX.HTML ===
 /**--------------*/
+
+.layout__video {
+	width: 100%;
+	height: 100%;
+}
+
+.layout__content {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.content__title {
+	font-size: 12rem;
+	text-shadow: 0 0 10rem HotPink;
+	padding: 2rem;
+	margin-bottom: 2rem;
+}
+
+.content__btn {
+	display: block;
+	width: 20rem;
+	margin: 0 auto;
+	border: 5px solid white;
+	background-color: DeepPink;
+	padding: 2rem;
+	color: white;
+	font-weight: 600;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 2.2rem;
+	border-radius: 5rem;
+	transition: all 400ms ease-in-out;
+}
+
+.content__btn:hover {
+	background-color: black;
+	color: white;
+	border: 5px solid deeppink;
+}
