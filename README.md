@@ -17,7 +17,7 @@
 | 05       | [Hotel finder](./05-hotel-finder)        | [🚀](https://05-hotel-finder.netlify.app/)   |
 | 06       | [Text animated](./06-text-animated)      | [🚀](https://06-text-animated.netlify.app/)  |
 | 07       | [Stopwatch](./07-stopwatch)              | [🚀](https://07-stopwatch.netlify.app/)      |
-|          |                                          |                                             |
+| 08       | [Background video](./08-bg-video)        | [🚀]()                                       |
 |          |                                          |                                             |
 |          |                                          |                                             |
 |          |                                          |                                             |
