@@ -69,6 +69,8 @@ img {
 	border: 5px solid white;
 	background-color: Teal;
 	color: white;
+	/* Oculta la caja de ::before que realmente esta debajo del boton */
+	overflow: hidden;
 }
 
 .buttons__btn2 {
@@ -76,4 +78,27 @@ img {
 	background-color: white;
 	color: Teal;
 	border-radius: 0;
+}
+
+/* Efecto boton 1 */
+
+.buttons__btn1::before {
+	content: 'Hello !';
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-color: Teal;
+	color: white;
+	font-weight: 600;
+	border-radius: 5rem;
+	transform: translateY(10rem);
+	transition: all 400ms linear;
+}
+
+.buttons__btn1:hover::before {
+	transform: translateY(0);
 }
