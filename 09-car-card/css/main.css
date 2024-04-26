@@ -1,6 +1,8 @@
 /*! === CUSTOM PROPERTIES === */
 :root {
 	--mainFont: "Montserrat", sans-serif;
+	--black: #222;
+	--shadowColor: #d5ab93bf;
 }
 
 /*! === GLOBAL === */
@@ -19,6 +21,7 @@ html {
 body {
 	font-size: 1.6rem;
 	font-family: var(--mainFont);
+	background-color: AntiqueWhite;
 }
 
 h1,
@@ -36,3 +39,22 @@ img {
 /**----------------
 === INDEX.HTML ===
 /**--------------*/
+
+.layout {
+	width: 100%;
+	min-height: 100%;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.layout__card {
+	display: flex;
+	max-width: 86rem;
+	height: 30rem;
+	background-color: white;
+	border-radius: 1.5rem;
+	overflow: hidden;
+	box-shadow: 1.5rem 1.5rem 10px 1px var(--shadowColor);
+}
