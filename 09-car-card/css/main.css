@@ -58,3 +58,26 @@ img {
 	overflow: hidden;
 	box-shadow: 1.5rem 1.5rem 10px 1px var(--shadowColor);
 }
+
+.card__container-img {
+	flex-basis: 40%;
+	height: 100%;
+}
+
+.card__content {
+	flex-basis: 60%;
+	height: 100%;
+	padding: 3rem 5rem;
+}
+
+.content__title {
+	font-size: 2.4rem;
+	line-height: 1.4;
+	color: var(--black);
+}
+
+.content__description {
+	font-size: 1.8rem;
+	color: gray;
+	margin: 1.5rem 0;
+}
