@@ -88,4 +88,5 @@ img {
 
 .layout__article--2>.article__overlay {
 	background-color: Brown;
+	height: 50%;
 }
