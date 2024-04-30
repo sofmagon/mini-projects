@@ -85,3 +85,7 @@ img {
 	font-weight: 300;
 	font-size: 1.8rem;
 }
+
+.layout__article--2>.article__overlay {
+	background-color: Brown;
+}
