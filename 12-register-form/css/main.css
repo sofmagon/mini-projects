@@ -115,3 +115,21 @@ img {
 .steps__description {
 	font-weight: 600;
 }
+
+.main__right {
+	padding: 2rem 5rem;
+}
+
+.main__header {
+	margin-bottom: 5rem;
+}
+
+.header__title {
+	color: var(--purple);
+	font-size: 3.6rem;
+}
+
+.header__subtitle {
+	color: gray;
+	font-size: 1.8rem;
+}
