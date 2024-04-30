@@ -75,6 +75,7 @@ img {
 	background-color: RoyalBlue;
 	padding: 3rem;
 	color: white;
+	transition: all 400ms ease-in-out;
 }
 
 .article__title {
