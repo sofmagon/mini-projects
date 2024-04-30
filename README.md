@@ -8,21 +8,21 @@
 
 ## 🍕 Projects
 
-| # Number | Project name                             | Live site                                     |
-| -------- | ---------------------------------------- | --------------------------------------------- |
-| 01       | [User card](./01-user-card)              | [🚀](https://01-user-card.netlify.app/)        |
-| 02       | [Translator](./02-translator)            | [🚀](https://02-translator.netlify.app/)       |
-| 03       | [Temporary mail creator](./03-temp-mail) | [🚀](https://03-temp-mail.netlify.app/)        |
-| 04       | [Pricing tables](./04-pricing)           | [🚀](https://04-pricing-tables.netlify.app/)   |
-| 05       | [Hotel finder](./05-hotel-finder)        | [🚀](https://05-hotel-finder.netlify.app/)     |
-| 06       | [Text animated](./06-text-animated)      | [🚀](https://06-text-animated.netlify.app/)    |
-| 07       | [Stopwatch](./07-stopwatch)              | [🚀](https://07-stopwatch.netlify.app/)        |
-| 08       | [Background video](./08-bg-video)        | [🚀](https://08-background-video.netlify.app/) |
-| 09       | [Car card](./09-car-card)                | [🚀](https://09-car-card.netlify.app/)         |
-| 10       | [Bar chart](./10-bar-chart)              | [🚀](https://10-bar-chart.netlify.app/)        |
-| 11       | [Buttons with effects](./11-buttons)     | [🚀](https://11-buttons-effects.netlify.app/)  |
-| 12       | [Register form](./12-register-form)      | [🚀](https://12-register-form.netlify.app/)    |
-|          |                                          |                                               |
+| # Number | Project name                                 | Live site                                     |
+| -------- | -------------------------------------------- | --------------------------------------------- |
+| 01       | [User card](./01-user-card)                  | [🚀](https://01-user-card.netlify.app/)        |
+| 02       | [Translator](./02-translator)                | [🚀](https://02-translator.netlify.app/)       |
+| 03       | [Temporary mail creator](./03-temp-mail)     | [🚀](https://03-temp-mail.netlify.app/)        |
+| 04       | [Pricing tables](./04-pricing)               | [🚀](https://04-pricing-tables.netlify.app/)   |
+| 05       | [Hotel finder](./05-hotel-finder)            | [🚀](https://05-hotel-finder.netlify.app/)     |
+| 06       | [Text animated](./06-text-animated)          | [🚀](https://06-text-animated.netlify.app/)    |
+| 07       | [Stopwatch](./07-stopwatch)                  | [🚀](https://07-stopwatch.netlify.app/)        |
+| 08       | [Background video](./08-bg-video)            | [🚀](https://08-background-video.netlify.app/) |
+| 09       | [Car card](./09-car-card)                    | [🚀](https://09-car-card.netlify.app/)         |
+| 10       | [Bar chart](./10-bar-chart)                  | [🚀](https://10-bar-chart.netlify.app/)        |
+| 11       | [Buttons with effects](./11-buttons)         | [🚀](https://11-buttons-effects.netlify.app/)  |
+| 12       | [Register form](./12-register-form)          | [🚀](https://12-register-form.netlify.app/)    |
+| 13       | [Image overlay techniques](./13-img-overlay) | [🚀]()                                         |
 
 
 ## 🛼 Tecnologies used
