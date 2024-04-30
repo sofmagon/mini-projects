@@ -117,3 +117,14 @@ img {
 .layout__article--2:hover>.article__img {
 	transform: translateY(-20rem);
 }
+
+/*:: 3 */
+.layout__article--3>.article__overlay {
+	background-color: SeaGreen;
+	position: relative;
+	transform: translateY(40rem);
+}
+
+.layout__article--3:hover>.article__overlay {
+	transform: translateY(0);
+}
