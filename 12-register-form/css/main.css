@@ -168,3 +168,22 @@ img {
 	font-weight: 500;
 	font-size: 1.4rem;
 }
+
+.form__btn {
+	display: inline-block;
+	background-color: slategray;
+	color: white;
+	font-weight: 600;
+	padding: 1.2rem 5rem;
+	outline: none;
+	border: none;
+	border-radius: 1rem;
+	width: 50%;
+	margin: 2rem auto 0 auto;
+	transition: all 400ms linear;
+}
+
+.form__btn:hover {
+	background-color: black;
+	cursor: pointer;
+}
