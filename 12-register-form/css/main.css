@@ -84,9 +84,15 @@ img {
 	justify-content: center;
 	align-items: center;
 	border: 1px solid var(--lightPurple);
-	width: 4rem;
-	height: 4rem;
+	width: 5rem;
+	height: 5rem;
 	border-radius: 100%;
+	transition: all 400ms ease-in-out;
+}
+
+.steps__number {
+	font-size: 2rem;
+	font-weight: 700;
 }
 
 .steps__title,
