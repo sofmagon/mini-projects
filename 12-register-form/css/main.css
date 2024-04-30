@@ -2,8 +2,8 @@
 :root {
 	--mainFont: "Montserrat", sans-serif;
 	--lightPurple: #EEEFFF;
-	--purple: #;
-	--lihtGray: #7E78782B;
+	--purple: #684ECD;
+	--lightGray: #7E78782B;
 }
 
 /*! === GLOBAL === */
@@ -56,4 +56,44 @@ img {
 	border-radius: 2rem;
 	box-shadow: 0px 0px 10px var(--lihtGray);
 	display: flex;
+}
+
+.main__left {
+	background-color: var(--purple);
+	border-radius: 1rem;
+	color: white;
+	padding: 3rem 6rem 3rem 3rem;
+}
+
+.main__steps {
+	width: 100%;
+	list-style: none;
+}
+
+.steps__item {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	padding: 1rem;
+	margin-bottom: 2rem;
+}
+
+.steps__container-number {
+	/* Para centrar el texto en todo momento */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid var(--lightPurple);
+	width: 4rem;
+	height: 4rem;
+	border-radius: 100%;
+}
+
+.steps__title,
+.steps__description {
+	margin: 0;
+}
+
+.steps__title {
+	margin-bottom: 1rem;
 }
