@@ -36,3 +36,24 @@ img {
 /**----------------
 === INDEX.HTML ===
 /**--------------*/
+
+.layout {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 3rem;
+	padding: 3rem;
+}
+
+.layout__article {
+	position: relative;
+	width: 40rem;
+	height: 40rem;
+	cursor: pointer;
+	border-radius: 2rem;
+	/* Importante ocultar los textos */
+	overflow: hidden;
+}
