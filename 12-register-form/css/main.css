@@ -172,13 +172,13 @@ img {
 
 .form__btn {
 	display: inline-block;
-	background-color: slategray;
-	color: white;
+	background-color: white;
+	border: 2px solid var(--purple);
+	color: black;
 	font-weight: 600;
-	padding: 1.2rem 5rem;
+	padding: 1.5rem 5rem;
 	outline: none;
-	border: none;
-	border-radius: 1rem;
+	border-radius: 5rem;
 	width: 50%;
 	margin: 2rem auto 0 auto;
 	transition: all 400ms linear;
@@ -186,5 +186,7 @@ img {
 
 .form__btn:hover {
 	background-color: black;
+	border: 2px solid black;
+	color: white;
 	cursor: pointer;
 }
