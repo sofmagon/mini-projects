@@ -31,11 +31,11 @@
 
 ## 🍕 Projects
 
-| # Number | Project name | Live site |
-| -------- | ------------ | --------- |
-|          |              |           |
-|          |              |           |
-|          |              |           |
+| # Number | Project name                      | Live site |
+| -------- | --------------------------------- | --------- |
+| 01       | [Times tables](./14-times-tables) | [🚀]()     |
+|          |                                   |           |
+|          |                                   |           |
 
 
 
