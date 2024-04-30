@@ -90,6 +90,12 @@ img {
 	transition: all 400ms ease-in-out;
 }
 
+.steps__container-number:hover {
+	background-color: var(--lightPurple);
+	color: var(--purple);
+	cursor: pointer;
+}
+
 .steps__number {
 	font-size: 2rem;
 	font-weight: 700;
