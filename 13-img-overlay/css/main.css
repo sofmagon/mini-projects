@@ -72,7 +72,6 @@ img {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	background-color: RoyalBlue;
 	padding: 3rem;
 	color: white;
 	transition: all 400ms ease-in-out;
@@ -87,11 +86,17 @@ img {
 	font-size: 1.8rem;
 }
 
-.layout__article--2>.article__overlay {
-	background-color: Brown;
-	height: 50%;
+/*!---------------------
+=== PARTICULARIDADES ===
+/*!-------------------*/
+
+/*:: 1 */
+.layout__article--1>.article__overlay {
+	background-color: RoyalBlue;
+	position: absolute;
+	transform: translateX(-40rem);
 }
 
-.layout__article--3>.article__overlay {
-	background-color: SeaGreen;
+.layout__article--1:hover>.article__overlay {
+	transform: translateX(0);
 }
