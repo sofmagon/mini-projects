@@ -57,3 +57,9 @@ img {
 	/* Importante ocultar los textos */
 	overflow: hidden;
 }
+
+.article__img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
