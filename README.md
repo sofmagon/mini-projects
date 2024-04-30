@@ -22,7 +22,7 @@
 | 10       | [Bar chart](./10-bar-chart)                  | [🚀](https://10-bar-chart.netlify.app/)        |
 | 11       | [Buttons with effects](./11-buttons)         | [🚀](https://11-buttons-effects.netlify.app/)  |
 | 12       | [Register form](./12-register-form)          | [🚀](https://12-register-form.netlify.app/)    |
-| 13       | [Image overlay techniques](./13-img-overlay) | [🚀]()                                         |
+| 13       | [Image overlay techniques](./13-img-overlay) | [🚀](https://13-img-overlay.netlify.app/)      |
 
 
 ## 🛼 Tecnologies used
