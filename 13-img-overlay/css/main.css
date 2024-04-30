@@ -91,3 +91,7 @@ img {
 	background-color: Brown;
 	height: 50%;
 }
+
+.layout__article--3>.article__overlay {
+	background-color: SeaGreen;
+}
