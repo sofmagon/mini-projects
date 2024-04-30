@@ -62,12 +62,13 @@ img {
 	background-color: var(--purple);
 	border-radius: 1rem;
 	color: white;
-	padding: 3rem 6rem 3rem 3rem;
+	padding: 4rem;
 }
 
 .main__steps {
 	width: 100%;
 	list-style: none;
+	padding: 0;
 }
 
 .steps__item {
