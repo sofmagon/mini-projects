@@ -56,3 +56,23 @@ img {
 	gap: 2rem;
 	margin-bottom: 5rem;
 }
+
+.tables__item {
+	width: calc(20% - 2rem);
+	border-radius: 1rem;
+	background-color: black;
+	padding: 2rem;
+}
+
+.tables__title {
+	color: white;
+	font-size: 3.2rem;
+	margin-bottom: 1rem;
+}
+
+.tables__list {
+	list-style: none;
+	padding: 0;
+	font-size: 2.4rem;
+	color: white;
+}
