@@ -49,7 +49,7 @@ img {
 }
 
 .layout__card {
-	width: 30rem;
+	width: 40rem;
 	background-color: slateblue;
 	border-radius: 1.5rem;
 	overflow: hidden;
@@ -66,4 +66,21 @@ img {
 	font-weight: 500;
 	padding: 1rem 2rem;
 	color: Lavender;
+}
+
+.card__content {
+	padding: 1rem;
+}
+
+.content__title {
+	font-size: 2rem;
+	margin: 2rem 0;
+}
+
+.content__description {
+	font-weight: 300;
+	line-height: 1.5;
+	margin: 0;
+	padding-bottom: 2rem;
+	border-bottom: 1px solid DarkSlateBlue;
 }
