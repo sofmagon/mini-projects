@@ -31,11 +31,11 @@
 
 ## 🍕 Projects
 
-| # Number | Project name                      | Live site                                 |
-| -------- | --------------------------------- | ----------------------------------------- |
-| 01       | [Times tables](./14-times-tables) | [🚀](https://14-times-tables.netlify.app/) |
-|          |                                   |                                           |
-|          |                                   |                                           |
+| # Number | Project name                                | Live site                                 |
+| -------- | ------------------------------------------- | ----------------------------------------- |
+| 01       | [Times tables](./14-times-tables)           | [🚀](https://14-times-tables.netlify.app/) |
+| 02       | [Cards: add button with JS](./15-cards-btn) | [🚀]()                                     |
+|          |                                             |                                           |
 
 
 
