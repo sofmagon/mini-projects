@@ -56,3 +56,14 @@ img {
 	text-align: center;
 	color: white;
 }
+
+.card__header {
+	border-bottom: 1px solid DarkSlateBlue;
+}
+
+.header__author {
+	font-size: 2rem;
+	font-weight: 500;
+	padding: 1rem 2rem;
+	color: Lavender;
+}
