@@ -1,4 +1,4 @@
-# Cards: change styles with JS
+# Card: change styles with JS
 
 
 
@@ -24,7 +24,7 @@
 
 ## 🌎 Live demo
 
-[Click here]() 👈🏻
+[Click here](https://16-cards-btn.netlify.app/) 👈🏻
 
 
 
