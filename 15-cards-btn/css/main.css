@@ -84,3 +84,16 @@ img {
 	padding-bottom: 2rem;
 	border-bottom: 1px solid DarkSlateBlue;
 }
+
+.content__bnt {
+	width: 100%;
+	margin: 3rem 0 1rem 0;
+	padding: 1.5rem;
+	border-radius: 1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background-color: DarkSlateBlue;
+	color: white;
+	font-size: 2rem;
+}
