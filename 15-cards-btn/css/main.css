@@ -1,6 +1,7 @@
 /*! === CUSTOM PROPERTIES === */
 :root {
 	--mainFont: "Montserrat", sans-serif;
+	--lightBlue: #ABD4FA;
 }
 
 /*! === GLOBAL === */
@@ -19,6 +20,8 @@ html {
 body {
 	font-size: 1.6rem;
 	font-family: var(--mainFont);
+	background-color: var(--lightBlue);
+	padding: 3rem;
 }
 
 h1,
@@ -36,3 +39,18 @@ img {
 /**----------------
 === INDEX.HTML ===
 /**--------------*/
+
+.layout {
+	width: 100%;
+	display: flex;
+	gap: 2rem;
+}
+
+.layout__card {
+	width: 30rem;
+	background-color: slateblue;
+	border-radius: 1.5rem;
+	overflow: hidden;
+	text-align: center;
+	color: white;
+}
