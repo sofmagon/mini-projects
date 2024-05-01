@@ -21,7 +21,7 @@ body {
 	font-size: 1.6rem;
 	font-family: var(--mainFont);
 	background-color: var(--lightBlue);
-	padding: 3rem;
+	padding: 5rem;
 }
 
 h1,
@@ -44,6 +44,8 @@ img {
 	width: 100%;
 	display: flex;
 	gap: 2rem;
+	justify-content: center;
+	align-items: center;
 }
 
 .layout__card {
