@@ -43,6 +43,7 @@ img {
 	font-size: 5rem;
 	background: linear-gradient(to right, deeppink 0%, royalblue 100%);
 	-webkit-text-fill-color: transparent;
+	background-clip: text;
 	-webkit-background-clip: text;
 	font-weight: 900;
 }
