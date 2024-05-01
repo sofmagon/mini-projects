@@ -76,3 +76,39 @@ img {
 	font-size: 2.4rem;
 	color: white;
 }
+
+.tables__item:nth-child(1) {
+	background-color: firebrick;
+}
+
+.tables__item:nth-child(2) {
+	background-color: orangered;
+}
+
+.tables__item:nth-child(3) {
+	background-color: orange;
+}
+
+.tables__item:nth-child(4) {
+	background-color: forestgreen;
+}
+
+.tables__item:nth-child(5) {
+	background-color: royalblue;
+}
+
+.tables__item:nth-child(6) {
+	background-color: darkviolet;
+}
+
+.tables__item:nth-child(7) {
+	background-color: hotpink;
+}
+
+.tables__item:nth-child(8) {
+	background-color: lightsalmon;
+}
+
+.tables__item:nth-child(9) {
+	background-color: slategray;
+}
