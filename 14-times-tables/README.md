@@ -24,7 +24,7 @@
 
 ## 🌎 Live demo
 
-[Click here]() 👈🏻
+[Click here](https://14-times-tables.netlify.app/) 👈🏻
 
 
 
